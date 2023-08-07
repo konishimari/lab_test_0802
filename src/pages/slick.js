@@ -31,44 +31,44 @@ export default function SimpleSlider() {
         
       <Slider {...settings}>        
         <div className ={style.photo}>
-            <img src={Bestview1} alt="イエローナイフ" width={500} height={500} loading="lazy"/>
-            <h3>イエローナイフ</h3>
+            <img className={style.image} src={Bestview1} alt="イエローナイフ" width={500} height={500} loading="lazy"/>
+            <h3 className={style.text1}>イエローナイフ</h3>
         </div>
         <div className ={style.photo}>
-            <img src={Bestview2} alt="アマゾン川" width={500} height={500} loading="lazy"/>
-            <h3>アマゾン川</h3>
+            <img className={style.image} src={Bestview2} alt="アマゾン川" width={500} height={500} loading="lazy"/>
+            <h3 className={style.text1}>アマゾン川</h3>
         </div>
         <div className ={style.photo}>
-            <img src={Bestview3} alt="グアナファト" width={500} height={500} loading="lazy"/>
-            <h3>グアナファト</h3>
+            <img className={style.image} src={Bestview3} alt="グアナファト" width={500} height={500} loading="lazy"/>
+            <h3 className={style.text1}>グアナファト</h3>
         </div>
         <div className ={style.photo}>
-            <img src={Bestview4} alt="ユウニ湖" width={500} height={500} loading="lazy"/>
-            <h3>ユウニ湖</h3>
+            <img className={style.image} src={Bestview4} alt="ユウニ湖" width={500} height={500} loading="lazy"/>
+            <h3 className={style.text1}>ユウニ湖</h3>
         </div>
         <div className ={style.photo}>
-            <img src={Bestview5} alt="トスカーナ" width={500} height={500} loading="lazy"/>
-            <h3>トスカーナ</h3>
+            <img className={style.image} src={Bestview5} alt="トスカーナ" width={500} height={500} loading="lazy"/>
+            <h3 className={style.text1}>トスカーナ</h3>
         </div>
         <div className ={style.photo}>
-            <img src={Bestview6} alt="パガン" width={500} height={500} loading="lazy"/>
-            <h3>パガン</h3>
+            <img className={style.image} src={Bestview6} alt="パガン" width={500} height={500} loading="lazy"/>
+            <h3 className={style.text1}>パガン</h3>
         </div>
         <div className ={style.photo}>
-            <img src={Bestview7} alt="カナディアンロッキー" width={500} height={500} loading="lazy"/>
-            <h3>カナディアンロッキー</h3>
+            <img className={style.image} src={Bestview7} alt="カナディアンロッキー" width={500} height={500} loading="lazy"/>
+            <h3 className={style.text1}>カナディアンロッキー</h3>
         </div>
         <div className ={style.photo}>
-            <img src={Bestview8} alt="ヘネラル・カレーラ湖" width={500} height={500} loading="lazy"/>
-            <h3>ヘネラル・カレーラ湖</h3>
+            <img className={style.image} src={Bestview8} alt="ヘネラル・カレーラ湖" width={500} height={500} loading="lazy"/>
+            <h3 className={style.text1}>ヘネラル・カレーラ湖</h3>
         </div>
         <div className ={style.photo}>
-            <img src={Bestview9} alt="ソコトラ島" width={500} height={500} loading="lazy"/>
-            <h3>ソコトラ島</h3>
+            <img className={style.image} src={Bestview9} alt="ソコトラ島" width={500} height={500} loading="lazy"/>
+            <h3 className={style.text1}>ソコトラ島</h3>
         </div>
         <div className ={style.photo}>
-            <img src={Bestview10} alt="アブラハム湖" width={500} height={500} loading="lazy"/>
-            <h3>アブラハム湖</h3>
+            <img className={style.image} src={Bestview10} alt="アブラハム湖" width={500} height={500} loading="lazy"/>
+            <h3 className={style.text1}>アブラハム湖</h3>
         </div>        
       </Slider>
     </> 
